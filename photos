@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        
+        h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        
+        .photo {
+            margin-bottom: 20px;
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        
+        .description {
+            font-size: 16px;
+            margin-top: 10px;
+        }
+        
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Photography Portfolio</h1>
+    </header>
+    <div class="container">
+        <div class="photo">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuNWEBCek-_oQcsx8yKHFcVzjGGflA-yBTaP3FISbyiw&s/" alt="Beautiful Landscape">
+            <p class="description">A breathtaking landscape captured during sunset.</p>
+        </div>
+        <div class="photo">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVdGVQUhnHl2Kn75ZgQcBGiQamMDui9_GtO0hxF60Z2w&s" alt="Vibrant Cityscape">
+            <p class="description">Vibrant city lights shining bright against the night sky.</p>
+        </div>
+        <div class="photo">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3WOP6D2o1tdCKoupQtY8NF2zP5GKvAMXLc5R-xQ9ptw&s" alt="Serene Nature">
+            <p class="description">Peaceful nature scene with lush greenery and a tranquil lake.</p>
+        </div>
+    </div>
+    <footer>
+        <p>© 2024 Photography Portfolio</p>
+    </footer>
+</body>
+
+</html>
